@@ -1,3 +1,4 @@
+import argparse
 import time
 
 import win32api
@@ -18,7 +19,26 @@ def press(*args):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--keys",
+        nargs="+",
+        default=["F15"],
+        help="comma separated list of which keys to press, executed in order",
+    )
+    parser.add_argument(
+        "--sleep", type=int, help="seconds to sleep between key presses"
+    )
+
+    args = parser.parse_args()
+
+    for k in args.keys:
+        if k not in VK_CODE.keys():
+            print(f"{k} not registered key!")
+
     while True:
-        press("F15")
-        print("pressed F15")
-        time.sleep(60)
+        keys = [k for k in args.keys]
+        press(f"{keys}")
+        print(f"pressed {keys}")
+        time.sleep(args.sleep)
