@@ -38,7 +38,7 @@ if __name__ == "__main__":
             print(f"{k} not registered key!")
 
     while True:
-        keys = [k for k in args.keys.split(",")]
+        keys = [k for k in args.keys]
         print(f"pressing {keys}")
         press(f"{keys}")
         time.sleep(args.sleep)
