@@ -3,6 +3,8 @@ import time
 import win32api
 import win32con
 
+from vk_codes import VK_CODE
+
 
 def press(*args):
     """
