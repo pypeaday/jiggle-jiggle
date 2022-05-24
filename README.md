@@ -20,4 +20,4 @@ anything.
 
 # Credit
 
-Chris Kiehl's [gist](https://gist.github.com/chriskiehl/2906125) is basically exactly this script, I just added some cli options
+Chris Kiehl's [gist](https://gist.github.com/chriskiehl/2906125) is basically exactly this script, I just added some cli options and removed all the functionality that is unnecessary for this simple utility
