@@ -28,7 +28,7 @@ if __name__ == "__main__":
         help="comma separated list of which keys to press, executed in order",
     )
     parser.add_argument(
-        "--sleep", type=int, help="seconds to sleep between key presses"
+        "--sleep", type=int, help="seconds to sleep between key presses", default=60
     )
 
     args = parser.parse_args()
