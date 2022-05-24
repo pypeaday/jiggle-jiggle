@@ -17,3 +17,7 @@ caffeine does! Every minute by default the script will press `F15` which is a
 key Windows knows about but is rarely on any keyboards and it doesn't do
 anything.
 
+
+# Credit
+
+Chris Kiehl's [gist](https://gist.github.com/chriskiehl/2906125) is basically exactly this script, I just added some cli options
