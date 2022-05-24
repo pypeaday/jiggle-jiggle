@@ -39,6 +39,6 @@ if __name__ == "__main__":
 
     while True:
         keys = [k for k in args.keys]
+        print(f"pressing {keys}")
         press(f"{keys}")
-        print(f"pressed {keys}")
         time.sleep(args.sleep)
