@@ -4,7 +4,10 @@ A simple Python script for Windows to simulate a key presses progamatically
 
 ## How to run
 
-> This is only for Windows users! I expect if you're on a UNIX system to have more freedom than the typical large corp Windows images permits a user
+> This is only for Windows users! I expect if you're on a UNIX system to have
+> more freedom than the typical large corp Windows images permits a user
+
+`python jiggle.py --sleep 300  # press F15 every 300 seconds`
 
 `python jiggle.py --keys <comma seperate list of keys> --sleep <seconds to sleep>`
 
