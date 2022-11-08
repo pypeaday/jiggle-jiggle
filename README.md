@@ -20,6 +20,8 @@ caffeine does! Every minute by default the script will press `F15` which is a
 key Windows knows about but is rarely on any keyboards and it doesn't do
 anything.
 
+> Note: I've logged a bug where this script results in `~` being pressed in Git Bash
+
 
 # Credit
 
